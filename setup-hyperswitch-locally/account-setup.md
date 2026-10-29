@@ -16,7 +16,7 @@ Here, you will be creating a Hyperswitch account and connecting your payment pro
 
 ## Getting started with the dashboard - Login / Register
 
-During the local setup, a user has been configured automatically for you. You can use username: admin, password: admin to access the dashboard
+During the local setup, a default user is created for you. When the setup script finishes, it prints the credentials to use on the dashboard login page (email and password). At the time of writing, these are `demo@hyperswitch.com` and `Hyperswitch@123`. The login page asks for an email address, so `admin` / `admin` will not work.
 
 Alternatively, on the landing page, click on the sign up button. Enter your email and set a strong password. Click on the sign up button.
 
