@@ -16,7 +16,7 @@ Here, you will be creating a Hyperswitch account and connecting your payment pro
 
 ## Getting started with the dashboard - Login / Register
 
-During the local setup, a default user is created for you. When the setup script finishes, it prints the credentials to use on the dashboard login page (email and password). At the time of writing, these are `demo@hyperswitch.com` and `Hyperswitch@123`. The login page asks for an email address, so `admin` / `admin` will not work.
+When you start the local setup with Docker Compose, a default user is created for you. To sign in to the dashboard, use the email `demo@hyperswitch.com` and the password `Hyperswitch@123`. These come from `scripts/create_default_user.sh` in the Hyperswitch repository and are meant for local use only. The login page asks for an email address, so `admin` / `admin` will not work. If the default user is missing, sign up with your own email as described below.
 
 Alternatively, on the landing page, click on the sign up button. Enter your email and set a strong password. Click on the sign up button.
 
